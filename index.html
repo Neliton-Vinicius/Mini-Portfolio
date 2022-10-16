@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">  <!--Lembrar de linkar o css-->
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    
+    <title>Mini Portfólio - Néliton Vinicius</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <!--src:Diretorio da imagem/alt:Titulo caso a imagem na carregue -->
+            <img src="./src/imagens/foto-perfil.jpg" alt="Foto de Perfil">
+            <h1 class="nome">Néliton Vinicius</h1><!--Titulo-->
+            <h2 class="cargo">Desenvolvedor Frontend Júnior</h2><!--Subtitulo-->
+
+        </div>
+
+        <div class="conteudo">
+            <!--ul:Criar listas desordenadas-->
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim"><!--Dentro de uma ul só pode haver li-->
+                    <img src="./src/imagens/intelligence.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/luck.gif" alt="icone de redes sociais">
+                </li>
+
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! meu nome é Néliton Vinicius, seja bem-vindo(a)</p>
+
+
+                         <p>
+                           Sempre quis aprender programação desde meus 14 anos e finalmente, depois de 5 anos
+                           comecei a por meus planos em prática. Acabei decidindo que estudar <span>HTML, CSS e 
+                           JavaScript</span> era um bom começo para minha carreira.
+                           Gosto de ler enquanto tomo uma boa xícara de café, também gosto de desenhar, assistir
+                           animes, séries e jogar qualquer tipo de jogo.
+                         </p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li><!--href: onde o botão vai levar a pessoa-->
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" class="curriculo">Currículo</a><!--target="_blank":pra abrir o link em outra aba-->
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/n%C3%A9liton-vinicius-de-oliveira-garcia-111b61253/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Neliton-Vinicius" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>

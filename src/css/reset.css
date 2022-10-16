@@ -1,0 +1,15 @@
+/*Criar um reset e importante no inicio do projeto para tirar o estilos pre-feitos*/
+*{  /* o * serve pra selecionar todas as tags e aplicar o comando*/
+    margin: 0; /*espaçamento externo*/
+    padding: 0; /*espaçamento interno*/
+    box-sizing: border-box; /*é bom colocar, mas não sei oque faz exatamente*/
+}
+
+ul{
+    list-style: none; /*tira o estilo da lista*/
+}
+
+a{  /*basicamente tira a decoração da ancora*/
+    text-decoration: none; 
+    color: #000
+}
